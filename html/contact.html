@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- All links are connected here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cookie&family=Jacquard+24&family=Jaro:opsz@6..72&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/contact.css" />
+    <!-- Script is connected here with defer attribute to work here -->
+    <script src="/js/contact.js" defer></script>
+  </head>
+  <body>
+    <i class="ri-moon-fill" id="theme" title="Click"></i>
+    <div class="openMe">
+      <i class="ri-menu-line open"> </i>
+      <div class="menu-open">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/index.html#skills">Skills</a></li>
+          <li><a href="/html/about.html">About</a></li>
+          <li><a href="/html/project.html">Projects</a></li>
+          <li><a href="/html/contact.html">Contact</a></li>
+        </ul>
+        <i class="ri-close-line close"></i>
+      </div>
+    </div>
+    
+    <!-- Header section -->
+    <header>
+      <div class="portfolio-name">
+        <h1>Portfolio.</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/index.html#skills">Skills</a></li>
+          <li><a href="/html/about.html">About</a></li>
+          <li><a href="/html/project.html">Projects</a></li>
+          <li><a href="/html/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main section -->
+    <main>
+      <section>
+        <div class="contact-dets">
+          <h1>CONTACT ME</h1>
+          <p>We'd love to hear from you !</p>
+          <div class="contact-info">
+            <div class="contact-details">
+              <i class="ri-map-pin-line"></i>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="contact-details">
+              <i class="ri-phone-line"></i>
+              <p>xxx-xxx-xxx</p>
+            </div>
+            <div class="contact-details">
+              <i class="ri-mail-line"></i>
+              <p>lorem@ipsum.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form id="form">
+            <label for="name"><i class="ri-user-3-line"></i>Name</label>
+            <input type="text" name="name" id="name" placeholder="Your Name" required />
+            <label for="email"><i class="ri-at-line"></i>Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email"
+              required
+              pattern ="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+            />
+            
+            <label for="message"><i class="ri-chat-4-line"></i>Message</label>
+            <textarea
+              name="textarea"
+              id="message"
+              cols="20"
+              rows="8"
+              placeholder="Your Message"
+              required
+              maxlength="50"
+            ></textarea>
+            <button type="submit" ><i class="ri-telegram-fill"></i>Send Message</button>
+            <span class="success-message">Message sent successfully!</span>
+          </form>
+        </div>
+      </section>
+    </main>
+    <!-- Footer section -->
+    <footer>
+      <div class="footer">
+        <div class="footer-about footer-info">
+          <h3>About</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
+            earum iusto a quaerat quod quia libero quibusdam amet, saepe et in
+            atque, tenetur laborum non, culpa voluptates pariatur optio impedit.
+          </p>
+          <div class="hero-social-contact">
+            <a href="#"><i class="ri-github-fill icon"></i></a>
+            <a href="#"><i class="ri-linkedin-box-fill icon"></i></a>
+            <a href="#"><i class="ri-twitter-x-fill icon"></i></a>
+            <a href="#"><i class="ri-instagram-line icon"></i></a>
+            <a href="#"><i class="ri-whatsapp-line icon"></i></a>
+          </div>
+        </div>
+        <div class="footer-links footer-info">
+          <h3>Links</h3>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/index.html#skills">Skills</a></li>
+            <li><a href="/html/about.html">About</a></li>
+            <li><a href="/html/project.html">Projects</a></li>
+            <li><a href="/html/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact footer-info">
+          <h3>Have a Question?</h3>
+          <div class="footer-location footer-contact-details">
+            <i class="ri-map-pin-line"></i>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="footer-call footer-contact-details">
+            <i class="ri-phone-line"></i>
+            <p>xxx-xxx-xxx</p>
+          </div>
+          <div class="footer-email footer-contact-details">
+            <i class="ri-mail-line"></i>
+            <p>lorem@ipsum.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © 2024. All rights reserved</p>
+        <p>Designed by Deepika singh</p>
+      </div>
+    </footer>
+  </body>
+</html>
